@@ -14,7 +14,7 @@ const Navbar = () => {
         <img src={logo} alt="logo" />
       </div>
       <div>
-        <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
+        <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10 pr-12">
           {navLinksdata.map(({ _id, title, link }) => (
             <li
               className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
