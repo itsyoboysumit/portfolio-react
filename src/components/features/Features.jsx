@@ -13,8 +13,8 @@ const Features = () => {
       <Title title="Features" des="What I Do" />
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
-          title="UI Craftsmanship"
-          des="I enjoy building sleek and responsive web interfaces using HTML, CSS, and React. Whether it's designing a landing page or polishing a portfolio, I focus on creating user experiences that are clean, modern, and intuitive."
+          title="From Design to Deployment"
+          des="As a Full-Stack MERN Developer, I take pride in building responsive and intuitive user interfaces that connect seamlessly with powerful backends. I focus on creating clean, modern designs using React and Tailwind CSS, ensuring every interface is not just beautiful—but functional and performant."
          
         />
         <Card
