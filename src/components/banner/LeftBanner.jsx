@@ -7,11 +7,12 @@ import {
   FaReact,
   FaGithub,
 } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiJavascript, SiOracle } from "react-icons/si";
+import { SiTailwindcss, SiJavascript, SiMongodb} from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Professional Coder.", "UI Designer."],
+    words: ["Professional Coder.", "MERN Stack Web Developer."],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -36,15 +37,20 @@ const LeftBanner = () => {
           I am an engineering graduate from the Information Technology department. I have a strong foundation in software development, problem-solving, and web technologies. My focus is on building efficient and scalable solutions, with a keen interest in front-end development.
         </p>
       </div>
-      <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
+      <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 sm:justify-between">
         <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
+          <h2 className=" text-base uppercase font-titleFont mb-4  ">
             Find me in
           </h2>
-          <div className="flex gap-4">
+          <div className="flex gap-4 justify-center">
             <a href="https://github.com/itsyoboysumit" target="blank">
               <span className="bannerIcon">
                 <FaGithub />
+              </span>
+            </a>
+            <a href="https://www.linkedin.com/in/sumit-kumar-a12b17360/" target="blank">
+              <span className="bannerIcon">
+                <FaLinkedinIn />
               </span>
             </a>
             <a href="https://www.facebook.com/profile.php?id=100009674650254" target="blank">
@@ -57,18 +63,13 @@ const LeftBanner = () => {
                 <FaTwitter />
               </span>
             </a>
-            <a href="https://www.linkedin.com/in/sumit-kumar-a12b17360/" target="blank">
-              <span className="bannerIcon">
-                <FaLinkedinIn />
-              </span>
-            </a>
           </div>
         </div>
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
             BEST SKILL ON
           </h2>
-          <div className="flex gap-4">
+          <div className="flex gap-4 justify-center">
             <span className="bannerIcon">
               <FaReact />
             </span>
@@ -76,10 +77,10 @@ const LeftBanner = () => {
               <SiJavascript />
             </span>
             <span className="bannerIcon">
-              <SiTailwindcss />
+              <FaNodeJs/>
             </span>
             <span className="bannerIcon">
-              <SiOracle />
+              <SiMongodb />
             </span>
           </div>
         </div>
