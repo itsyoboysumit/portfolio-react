@@ -1,5 +1,5 @@
-import React from 'react'
-import Title from '../layouts/Title'
+import React from 'react';
+import Title from '../layouts/Title';
 import { projectOne, projectTwo, projectThree } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
@@ -17,23 +17,39 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" This project is a feature-rich social media clone designed to replicate the core functionalities of popular networking platforms. It enables users to connect, share content, and interact seamlessly in a dynamic digital space."
+          title="YOUTUBE CLONE"
+          des="A full-stack YouTube clone built with the MERN stack, featuring video uploads, subscriptions, like, comment, playlists, search, authentication, and responsive UI - delivering smooth video playback and intuitive user experience across devices."
           src={projectOne}
+          progress="Deployed"
+          githubLinks={[
+            "https://github.com/itsyoboysumit/YouTube-frontend-",
+            "https://github.com/itsyoboysumit/backend_project"
+          ]}
+          liveLink="https://miniyoutube459.netlify.app/"
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des="This e-commerce platform is designed to deliver a seamless online shopping experience, with robust features for browsing, purchasing, and order tracking. It offers a scalable solution for modern retailers and tech-savvy consumers alike."
+          title="PORTFOLIO WEBSITE"
+          des="A fast, responsive portfolio built with React and Vite, showcasing my MERN stack projects, skills, and experience. Designed for clean UI, smooth navigation, and a professional developer presence with modern design aesthetics."
           src={projectTwo}
+          progress="Deployed"
+          githubLinks={[
+            "https://github.com/itsyoboysumit/portfolio-react"
+          ]}
+          liveLink="https://sumit2004.netlify.app/"
         />
         <ProjectsCard
-          title="Chatting App"
-          des="This chatting app offers real-time messaging with a clean, user-friendly interface, enabling users to connect and communicate effortlessly. It supports features like group chats, media sharing, and secure authentication for a smooth conversation experience."
+          title="REBOX"
+          des="A smart product exchange platform that estimates the value of unused household items and suggests exchange options within a similar price range. Users can browse, search, customize, and categorize available items for seamless bartering."
           src={projectThree}
+          progress="In Development"
+          githubLinks={[
+            "https://github.com/itsyoboysumit/rebox"
+          ]}
+          liveLink=""
         />
       </div>
     </section>
   );
-}
+};
 
-export default Projects
+export default Projects;

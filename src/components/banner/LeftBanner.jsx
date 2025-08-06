@@ -7,7 +7,7 @@ import {
   FaReact,
   FaGithub,
 } from "react-icons/fa";
-import { SiTailwindcss, SiJavascript, SiMongodb} from "react-icons/si";
+import { SiJavascript, SiMongodb} from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 
 const LeftBanner = () => {

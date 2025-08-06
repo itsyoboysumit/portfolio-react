@@ -9,7 +9,7 @@ const RightBanner = () => {
 
       {/* Foreground image */}
       <img
-        className="w-[350px] h-[370px]  translate-x-7   md:w-[320px] md:h-[380px] md:translate-x-10 lgl:w-[500px] lgl:h-[600px] z-10 relative lg:translate-x-10"
+        className="w-[350px] h-[370px]  translate-x-7 opacity-90  md:w-[320px] md:h-[380px] md:translate-x-10 lgl:w-[500px] lgl:h-[600px] z-10 relative lg:translate-x-10"
         src={bannerImg}
         alt="bannerImg"
       />

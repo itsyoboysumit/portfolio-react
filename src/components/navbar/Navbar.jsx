@@ -1,16 +1,16 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaGithub, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index"
-import { navLinksdata } from '../../constants';
+import { logo } from "../../assets/index";
+import { navLinksdata } from "../../constants";
 
 const Navbar = () => {
-  const [showMenu, setShowMenu]=useState(false)
+  const [showMenu, setShowMenu] = useState(false);
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <div className='w-16 '>
+      <div className="w-16 ">
         <img src={logo} alt="logo" />
       </div>
       <div>
@@ -45,7 +45,11 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                 I am an engineering graduate from the Information Technology department. I have a strong foundation in software development, problem-solving, and web technologies. My focus is on building efficient and scalable solutions, with a keen interest in front-end development.
+                  I am an engineering graduate from the Information Technology
+                  department. I have a strong foundation in software
+                  development, problem-solving, and web technologies. My focus
+                  is on building efficient and scalable solutions, with a keen
+                  interest in front-end development.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -73,15 +77,30 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
+                  <a
+                    href="https://github.com/itsyoboysumit"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bannerIcon"
+                  >
                     <FaGithub />
-                  </span>
-                  <span className="bannerIcon">
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/sumit-kumar-a12b17360/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bannerIcon"
+                  >
                     <FaLinkedinIn />
-                  </span>
-                  <span className="bannerIcon"> 
+                  </a>
+                  <a
+                    href="https://twitter.com/itsyoboysumit"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bannerIcon"
+                  >
                     <FaTwitter />
-                  </span>
+                  </a>
                 </div>
               </div>
               <span
@@ -96,6 +115,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;
