@@ -4,18 +4,19 @@ Welcome to the source code of my **React.js Developer Portfolio** — a project 
 
 ---
 
-<<<<<<<<< Temporary merge branch 1
-=========
+<<<<<<< HEAD
 ## 🌐 Live Demo
 
-Check out the live version of this project:
+You can see this portfolio live here:
 
-👉 [https://sumit2004.netlify.app](https://sumit2004.netlify.app)
-
-> Open in a new tab and explore the project UI live!
+```md
+🔗 [Live Demo](https://sumit2004.netlify.app/)
+```
 
 ---
 
+=======
+>>>>>>> 75b8a806c2ee9d327d5f598b6a173b71081fdf2a
 ## 🛠️ Tech Stack
 
 ```txt
@@ -102,7 +103,16 @@ Each page is built to demonstrate my frontend knowledge, component structuring, 
 
 ---
 
-<<<<<<<<< Temporary merge branch 1
+<<<<<<< HEAD
+
+## 🙋‍♂️ About Me
+
+**Sumit Kumar**  
+💼 Aspiring Full Stack Developer  
+🔗 GitHub: [@itsyoboysumit](https://github.com/itsyoboysumit)  
+📧 Email: [sumitkumar67670@gmail.com](mailto:sumitkumar67670@gmail.com)
+
+=======
 ## 🌐 Live Demo
 
 You can see this portfolio live here:
@@ -122,16 +132,7 @@ Role: Frontend / MERN Stack Developer
 Email: sumitkumar67670@gmail.com
 GitHub: https://github.com/itsyoboysumit
 ```
-=========
-
-## 🙋‍♂️ About Me
-
-**Sumit Kumar**  
-💼 Aspiring Full Stack Developer  
-🔗 GitHub: [@itsyoboysumit](https://github.com/itsyoboysumit)  
-📧 Email: [sumitkumar67670@gmail.com](mailto:sumitkumar67670@gmail.com)
-
->>>>>>>>> Temporary merge branch 2
+>>>>>>> 75b8a806c2ee9d327d5f598b6a173b71081fdf2a
 
 Feel free to connect with me or check out my other repositories.
 
