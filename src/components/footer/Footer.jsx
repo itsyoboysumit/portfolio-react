@@ -1,28 +1,20 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import {logo} from "../../assets/index"
 
 const Footer = () => {
   return (
-    <div className="w-full py-20 h-auto border-b-[1px] border-b-black flex justify-center items-center">
+    <div className="w-full py-20 pr-6 h-auto border-b-[1px] border-b-black flex justify-center items-center">
       <div className="flex flex-row items-center justify-center gap-8">
-        <img className="w-32" src={logo} alt="logo" />
+        <img className="w-28" src={logo} alt="logo" />
         <div className="flex gap-4">
           <a
-            href="https://www.facebook.com/profile.php?id=100009674650254"
+            href="https://github.com/itsyoboysumit"
             target="_blank"
             rel="noopener noreferrer"
             className="bannerIcon"
           >
-            <FaFacebookF />
-          </a>
-          <a
-            href="https://x.com/itsyoboysumit"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bannerIcon"
-          >
-            <FaTwitter />
+            <FaGithub />
           </a>
           <a
             href="https://www.linkedin.com/in/sumit-kumar-a12b17360/"
@@ -31,6 +23,14 @@ const Footer = () => {
             className="bannerIcon"
           >
             <FaLinkedinIn />
+          </a>
+          <a
+            href="https://x.com/itsyoboysumit"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bannerIcon"
+          >
+            <FaTwitter />
           </a>
         </div>
       </div>

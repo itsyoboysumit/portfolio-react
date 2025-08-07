@@ -7,7 +7,7 @@ const Education = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20 lgl:h-[800px]"
+      className="w-full flex flex-col lgl:flex-row gap-0 lgl:gap-20 lgl:h-[800px]"
     >
       {/* part one */}
       <div className="w-full h-full lgl:w-1/2 ">
@@ -33,10 +33,10 @@ const Education = () => {
 
       {/* part two */}
       <div className="w-full h-full lgl:w-1/2 ">
-        <div className="mt-20 py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+        <div className="mt-0 lgl:mt-20 py-0 lgl:py-12 font-titleFont flex flex-col gap-4">
           {/* Optional heading or leave empty */}
         </div>
-        <div className="mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="pt-10 lgl:pt-0 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="B.Tech in the Department of IT"
             subTitle="ASANSOL ENGINEERING COLLEGE (2022 - present)"
