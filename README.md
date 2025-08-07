@@ -4,17 +4,18 @@ Welcome to the source code of my **React.js Developer Portfolio** — a project 
 
 ---
 
-## 🚀 Live Demo
+<<<<<<<<< Temporary merge branch 1
+=========
+## 🌐 Live Demo
 
 Check out the live version of this project:
 
-```md
-🔗 [Live Demo](https://sumit2004.netlify.app/)
-```
+👉 [https://sumit2004.netlify.app](https://sumit2004.netlify.app)
+
+> Open in a new tab and explore the project UI live!
 
 ---
 
->>>>>>>>> Temporary merge branch 2
 ## 🛠️ Tech Stack
 
 ```txt
