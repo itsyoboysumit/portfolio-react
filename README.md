@@ -4,6 +4,7 @@ Welcome to the source code of my **React.js Developer Portfolio** — a project 
 
 ---
 
+<<<<<<< HEAD
 ## 🌐 Live Demo
 
 You can see this portfolio live here:
@@ -14,6 +15,8 @@ You can see this portfolio live here:
 
 ---
 
+=======
+>>>>>>> 75b8a806c2ee9d327d5f598b6a173b71081fdf2a
 ## 🛠️ Tech Stack
 
 ```txt
@@ -100,6 +103,7 @@ Each page is built to demonstrate my frontend knowledge, component structuring, 
 
 ---
 
+<<<<<<< HEAD
 
 ## 🙋‍♂️ About Me
 
