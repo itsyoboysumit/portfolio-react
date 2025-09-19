@@ -2,7 +2,12 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaGithub, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaGithub,
+  FaTwitter,
+  FaLinkedinIn,
+  FaFileDownload,
+} from "react-icons/fa";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 
@@ -10,9 +15,19 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <div className="w-16 ">
+      <div className="w-16 flex flex-row gap-2 items-center">
         <img src={logo} alt="logo" />
+
+        <a
+          href="/SUMIT_KUMAR_CV.pdf"
+          download="Sumit-Kumar-Resume.pdf" // the file name user will see
+          className="flex flex-col justify-center items-center mt-4 text-white px-3  rounded-md hover:-translate-x-1 transition-all hover:text-designColor cursor-pointer duration-600"
+        >
+          <FaFileDownload className="size-6 " />
+          <span className="text-sm mt-1">Resume</span>
+        </a>
       </div>
+
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10 pr-12">
           {navLinksdata.map(({ _id, title, link }) => (
