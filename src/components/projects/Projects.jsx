@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../layouts/Title';
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne, projectTwo, projectThree, projectFour } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -45,6 +45,16 @@ const Projects = () => {
             "https://github.com/itsyoboysumit/rebox"
           ]}
           liveLink=""
+        />
+        <ProjectsCard
+          title="ZERODHA CLONE"
+          des="Tradelyst is a front-end application I built to grasp large-scale website architecture. It highlights React, clean component structure, routing, and responsive UI. Completed as a learning effort to deepen my front-end expertise."
+          src={projectFour}
+          progress="Deployed"
+          githubLinks={[
+            "https://github.com/itsyoboysumit/tradelyst/tree/main/frontend"
+          ]}
+          liveLink="https://spectacular-cobbler-8d722c.netlify.app/"
         />
       </div>
     </section>
