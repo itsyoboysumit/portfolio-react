@@ -21,7 +21,7 @@ const Navbar = () => {
         <a
           href="/SUMIT_KUMAR_CV.pdf"
           download="Sumit-Kumar-Resume.pdf" // the file name user will see
-          className="flex flex-col justify-center items-center mt-4 text-white px-3  rounded-md hover:-translate-x-1 transition-all hover:text-designColor cursor-pointer duration-600"
+          className="flex flex-col justify-center items-center mt-4 text-white px-3  rounded-md hover:scale-95 transition-all hover:text-designColor cursor-pointer duration-600 active:text-designColor active:scale-95"
         >
           <FaFileDownload className="size-6 " />
           <span className="text-sm mt-1">Resume</span>
